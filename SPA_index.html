@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="Demo">
+<head>
+<title> </title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="js/script.js"></script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+<body>
+
+
+<h1>my first SPA</h1>
+
+
+<ul>
+  <li><a href="#/SPA_home">Home</a></li>
+  <li><a href="#/SPA_skills">Skills</a></li>
+  <li><a href="#/SPA_contact">Contact</a></li>
+ 
+</ul>
+
+<ng-view>
+
+</ng-view>
+
+</body>
+</html>
